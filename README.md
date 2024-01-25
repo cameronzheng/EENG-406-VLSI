@@ -47,11 +47,12 @@ To skip typing this command every time, create a `.designinit` text file in your
    PDK=sg13g2
    PDKPATH=/foss/pdks/sg13g2
    ```
-12. If the terminal screen is glitching out, download MobaXterm Home Edition. <br>
-[download link](https://mobaxterm.mobatek.net/download-home-edition.html) <br>
+12. If the terminal screen is glitching out, download [MobaXterm Home Edition](https://mobaxterm.mobatek.net/download-home-edition.html) <br>
 Run the installation software without any changes. Then restart your computer and rerun starting from step 5. This should resolve the screen issue.
-13. Install Python package PyLTSpice version 3.1 by running the command <br>
-`pip install PyLTSpice==3.1`<br>
+13. Install Python package PyLTSpice version 3.1 by running the command
+<br> `pip install PyLTSpice==3.1`<br>
+
+Note: When starting up the terminal, make sure to have docker running.
 
 ### MatLab
 1. Go to [MathWorks downloads](https://www.mathworks.com/downloads/).
@@ -62,8 +63,8 @@ Run the installation software without any changes. Then restart your computer an
 6. Select Individual license.
 7. Leave default settings and click next until you reach install.
 
-### Hspice/Ngspice Toolbox for Matlab ([link](https://www.cppsim.com/download_hspice_tools.html)) <br>
-1. Go to ([link](https://www.cppsim.com/download_hspice_tools.html)).
+### Hspice/Ngspice Toolbox for Matlab
+1. [Hspice/Ngspice Toolbox for Matlab](https://www.cppsim.com/download_hspice_tools.html). <br>
 2. Scroll down to the section titled "Hspice Toolbox for Matlab and Octave (also for use with Ngspice)"
 3. Click the "TAR.GZ" button to select "Download Hspice Toolbox for Matlab and Octave (hspice_toolbox.tar.gz)".
 4. Open Windows Powershell and navigate to the home directory by typing the following command
@@ -86,6 +87,6 @@ Run the installation software without any changes. Then restart your computer an
 <br> `mex loadsig.c` <br>
 
 ### Anaconda 
-1. Go to the following website link: ([link](https://docs.anaconda.com/free/anaconda/install/index.html))
+1. [Anaconda Download](https://docs.anaconda.com/free/anaconda/install/index.html) <br>
 2. Click on the green button that reads "Anaconda install for Windows".
 3. Launch the installer after it has downloaded and follow its instructions.
