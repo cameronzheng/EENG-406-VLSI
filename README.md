@@ -1,8 +1,7 @@
-# EENG-406---VLSI
-VLSI - Spring 2024
+# EENG-406 - VLSI
 
-# EE406
-### Required EDA software
+# Download required software
+### EDA software
 1. Open the PowerShell and install WSL<br>
 `wsl --install -d Ubuntu-22.04`<br>
 You will be prompted to create a UNIX username and password.<br>
@@ -64,7 +63,7 @@ Note: When starting up the terminal, make sure to have docker running.
 7. Leave default settings and click next until you reach install.
 
 ### Hspice/Ngspice Toolbox for Matlab
-1. [Hspice/Ngspice Toolbox for Matlab](https://www.cppsim.com/download_hspice_tools.html). <br>
+1. [Hspice/Ngspice Toolbox for Matlab](https://www.cppsim.com/download_hspice_tools.html) <br>
 2. Scroll down to the section titled "Hspice Toolbox for Matlab and Octave (also for use with Ngspice)"
 3. Click the "TAR.GZ" button to select "Download Hspice Toolbox for Matlab and Octave (hspice_toolbox.tar.gz)".
 4. Open Windows Powershell and navigate to the home directory by typing the following command
