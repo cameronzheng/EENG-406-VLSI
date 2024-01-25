@@ -31,6 +31,7 @@ To change where the user data is mounted edit the `./start_x.sh` script and modi
 `DESIGNS="/mnt/g/My Drive/eda/designs"`
 8. If there is a warning asking about Xauthority not found, run the following command.
 `touch ~/.Xauthority`
+9. If there is a warning and the terminal asks you to 
 10. If everything goes as it should, you will see a terminal with the prompt `/foss/designs >`. <br>
 This is your working directory where all your design data goes.
 11. The default PDK is the `sky130A`. However, the container supports also other PDKs.<br>
@@ -46,12 +47,25 @@ To skip typing this command every time, create a `.designinit` text file in your
    PDK=sg13g2
    PDKPATH=/foss/pdks/sg13g2
    ```
-12. If the terminal screen is glitching out, download MobaXterm Home Edition.
-[link](https://mobaxterm.mobatek.net/download-home-edition.html)
+12. If the terminal screen is glitching out, download MobaXterm Home Edition. <br>
+[download link](https://mobaxterm.mobatek.net/download-home-edition.html) <br>
+Run the installation software without any changes. Then restart your computer and rerun starting from step 5. This should resolve the screen issue.
+13. Install PyLTSpice version 3.1 by running the command <br>
+`pip install PyLTSpice==3.1`<br>
 
 ### MatLab
+1. Go to [MathWorks downloads](https://www.mathworks.com/downloads/).
+2. Install the latest version for the correct operating system.
+3. Login with a MathWorks Account.
+4. Accept terms and agreements
+5. Log in with MathWorks account.
+6. Select Individual license.
+7. Leave default settings and click next until you reach install.
 
+### Hspice/Ngspice Toolbox for Matlab ([link](https://www.cppsim.com/download_hspice_tools.html)) <br>
+1. 
 
+### Anaconda ([link](https://docs.anaconda.com/free/anaconda/install/index.html))
 
 ### Additional software to install on your computer
 1. Matlab (or Octave) <-- **required**
