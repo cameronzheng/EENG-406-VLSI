@@ -89,10 +89,3 @@ Run the installation software without any changes. Then restart your computer an
 1. Go to the following website link: ([link](https://docs.anaconda.com/free/anaconda/install/index.html))
 2. Click on the green button that reads "Anaconda install for Windows".
 3. Launch the installer after it has downloaded and follow its instructions.
-
-### Additional software to install on your computer
-1. Matlab (or Octave) <-- **required**
-2. Anaconda ([link](https://docs.anaconda.com/free/anaconda/install/index.html))
-3. PyLTSpice version 3.1<br>
-`pip install PyLTSpice==3.1`<br>
-4. [HSPICE/ngspice Toolbox](https://web02.gonzaga.edu/faculty/talarico/vlsi/matlab.html) by M. Perrott <-- **required**
