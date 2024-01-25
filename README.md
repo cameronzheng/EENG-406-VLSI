@@ -50,7 +50,7 @@ To skip typing this command every time, create a `.designinit` text file in your
 12. If the terminal screen is glitching out, download MobaXterm Home Edition. <br>
 [download link](https://mobaxterm.mobatek.net/download-home-edition.html) <br>
 Run the installation software without any changes. Then restart your computer and rerun starting from step 5. This should resolve the screen issue.
-13. Install PyLTSpice version 3.1 by running the command <br>
+13. Install Python package PyLTSpice version 3.1 by running the command <br>
 `pip install PyLTSpice==3.1`<br>
 
 ### MatLab
@@ -63,9 +63,32 @@ Run the installation software without any changes. Then restart your computer an
 7. Leave default settings and click next until you reach install.
 
 ### Hspice/Ngspice Toolbox for Matlab ([link](https://www.cppsim.com/download_hspice_tools.html)) <br>
-1. 
+1. Go to ([link](https://www.cppsim.com/download_hspice_tools.html)).
+2. Scroll down to the section titled "Hspice Toolbox for Matlab and Octave (also for use with Ngspice)"
+3. Click the "TAR.GZ" button to select "Download Hspice Toolbox for Matlab and Octave (hspice_toolbox.tar.gz)".
+4. Open Windows Powershell and navigate to the home directory by typing the following command
+<br> `cd ~` <br>
+5. Create a new directory to place the toolbox in by typing the following command
+<br> `mkdir Matlab_Toolboxes` <br>
+6. Navigate to the downloads folder by entering
+<br> `cd Downloads` <br>
+7. Enter the following command to untar the downloaded folder into the new directory
+<br> `tar -xzvf hspice_toolbox.tar.gz -C '..\Matlab_Toolboxes'` <br>
+8. Open Matlab
+9. HOME -> ENVIRONMENT -> Add-Ons -> Get Add-Ons
+10. Search for add-ons: MinGW
+11. Select "MATLAB Support for MinGW-w64 C/C++/Fortran Compiler"
+12. Install -> Install -> Agree -> Next -> Wait for download to complete -> Close
+13. Exit the Add-On Explorer.
+14. Under the "Command Window" navigate to the following directory with your username
+<br> `C:\Users\camer\Matlab_Toolboxes\HspiceToolbox` <br>
+15. Enter the following command
+<br> `mex loadsig.c` <br>
 
-### Anaconda ([link](https://docs.anaconda.com/free/anaconda/install/index.html))
+### Anaconda 
+1. Go to the following website link: ([link](https://docs.anaconda.com/free/anaconda/install/index.html))
+2. Click on the green button that reads "Anaconda install for Windows".
+3. Launch the installer after it has downloaded and follow its instructions.
 
 ### Additional software to install on your computer
 1. Matlab (or Octave) <-- **required**
